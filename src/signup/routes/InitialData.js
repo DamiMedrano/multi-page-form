@@ -119,6 +119,12 @@ const TnC = styled.div`
   * {
     margin: 4px !important;
   }
+  input {
+    height: 13px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
   p {
     font-weight: 600;
     word-spacing: 1px;
